@@ -21,7 +21,7 @@ fi
 
 echo "Cloning Cake repository to $HOME/.cake ..."
 
-git clone https://github.com/axvm/cake "$HOME/.cake"
+git clone https://github.com/anndream/cake "$HOME/.cake"
 if [ $? -ne 0 ]; then
   echo "Failed to clone Cake repository. Exiting."
   exit 1
